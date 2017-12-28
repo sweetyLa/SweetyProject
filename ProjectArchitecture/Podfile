@@ -1,0 +1,15 @@
+platform :ios, ‘8.0’
+#use_frameworks!
+
+target 'ProjectArchitecture' do
+
+pod 'Bugly'
+pod 'MJRefresh'
+pod 'AFNetworking'
+pod 'MBProgressHUD'
+pod 'FMDB'
+pod 'SDWebImage'
+
+
+end
+
