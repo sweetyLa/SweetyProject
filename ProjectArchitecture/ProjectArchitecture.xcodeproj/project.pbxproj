@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18677F19206A28AC00EF6E15 /* YSSAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18677F17206A28AB00EF6E15 /* YSSAFHTTPSessionManager.m */; };
 		18D203331FF4D7C700A3CCA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D203321FF4D7C700A3CCA1 /* AppDelegate.m */; };
 		18D2033B1FF4D7C700A3CCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D2033A1FF4D7C700A3CCA1 /* Assets.xcassets */; };
 		18D2033E1FF4D7C700A3CCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D2033C1FF4D7C700A3CCA1 /* LaunchScreen.storyboard */; };
@@ -66,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18677F17206A28AB00EF6E15 /* YSSAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		18677F18206A28AC00EF6E15 /* YSSAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSAFHTTPSessionManager.h; sourceTree = "<group>"; };
 		18D2032E1FF4D7C700A3CCA1 /* ProjectArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D203311FF4D7C700A3CCA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18D203321FF4D7C700A3CCA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -348,6 +351,8 @@
 		18D203861FF4D8C600A3CCA1 /* BaseService */ = {
 			isa = PBXGroup;
 			children = (
+				18677F18206A28AC00EF6E15 /* YSSAFHTTPSessionManager.h */,
+				18677F17206A28AB00EF6E15 /* YSSAFHTTPSessionManager.m */,
 				18D203871FF4D8C600A3CCA1 /* BaseService.h */,
 				18D203881FF4D8C600A3CCA1 /* BaseService.m */,
 				18D203891FF4D8C600A3CCA1 /* RDevice.h */,
@@ -756,6 +761,7 @@
 				18D203D11FF4D8C700A3CCA1 /* RDevice.m in Sources */,
 				18D203CD1FF4D8C700A3CCA1 /* AppDelegate+Bugly.m in Sources */,
 				18D203DC1FF4D8C700A3CCA1 /* YSSButton.m in Sources */,
+				18677F19206A28AC00EF6E15 /* YSSAFHTTPSessionManager.m in Sources */,
 				18D203C31FF4D8C700A3CCA1 /* FindViewController.m in Sources */,
 				18D203D01FF4D8C700A3CCA1 /* BaseService.m in Sources */,
 				18D203D21FF4D8C700A3CCA1 /* Reachability.m in Sources */,
